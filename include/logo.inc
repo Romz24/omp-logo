@@ -89,7 +89,7 @@ static const Logo_data[][Logo_EData] =
 };
 static const Logo_nameIndex = 0;
 static const Logo_serverNameIndex = 1;
-static Text:Logo_textDraws[4] = { Text:INVALID_TEXT_DRAW, ... };
+static Text:Logo_textDraws[sizeof Logo_data] = { Text:INVALID_TEXT_DRAW, ... };
 
 hook OnPlayerConnect(playerid)
 {

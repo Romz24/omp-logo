@@ -1,5 +1,5 @@
 #if defined __LOGO_INCLUDED__
-    #endinput
+	#endinput
 #endif
 #define __LOGO_INCLUDED__
 
